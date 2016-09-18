@@ -116,6 +116,10 @@ import org.scalatest.junit.JUnitRunner
     assert(sum(List(1,2,0)) === 3)
   }
 
+  test("sum of one number") {
+    assert(sum(List(5)) === 5)
+  }
+
   test("max of a few numbers") {
     assert(max(List(3, 7, 2)) === 7)
   }
