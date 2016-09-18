@@ -124,6 +124,14 @@ import org.scalatest.junit.JUnitRunner
     assert(max(List(3, 7, 2)) === 7)
   }
 
+  test("max in first position") {
+    assert(max(List(9,1,2,3)) === 9)
+  }
+
+  test("max in last position") {
+    assert(max(List(1,5,4,3,8,7,12)) === 12)
+  }
+
 
 
 }
